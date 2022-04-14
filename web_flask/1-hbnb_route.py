@@ -22,7 +22,7 @@ def hello_hbnb():
 
 @app.route("/hbnb")
 def hbnb():
-    """ 
+    """
     displays HBNB when /hbnb
     is used in url
     """
