@@ -3,11 +3,12 @@
 Module 1-hello_route.Script that start a
 Flask web application Test on tab:python3
 -m web_flask.1-hello_route
+On another tab:curl 0.0.0.0:5000/hbnb ; echo "" | cat -e
 """
 
 from flask import Flask
 app = Flask(__name__)
-app.url_map..strict_slashes = False
+app.url_map.strict_slashes = False
 
 
 @app.route("/")
