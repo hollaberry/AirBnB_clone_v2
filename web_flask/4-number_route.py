@@ -48,7 +48,7 @@ def python_is_cool(text="is cool"):
     return ("Python {}".format(text.replace('_', ' ')))
 
 
-@app.route("/number/int:<n>")
+@app.route("/number/<int:n>")
 def is_a_number(n):
     """
     display n is a number only
