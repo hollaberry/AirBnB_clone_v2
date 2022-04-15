@@ -32,7 +32,7 @@ def hbnb():
 @app.route("/c/<text")
 def c_is_fun(text):
     """
-    Displays C followed by value of text
+    Displays C followed by value of <text>
     replace _ sysmbols with a space
     without the text it returns 404
     """
