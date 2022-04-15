@@ -61,7 +61,7 @@ def is_a_number(n):
 def number_temp(n):
     """
     display a HTML page
-    H1 tag Number: n 
+    H1 tag Number: n
     only if n is an int
     """
     return render_template("5-number.html", n=n)
