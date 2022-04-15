@@ -7,6 +7,7 @@ On another tab:curl 0.0.0.0:5000/hbnb ; echo "" | cat -e
 """
 
 from flask import Flask
+from flask import render_template
 app = Flask(__name__)
 app.url_map.strict_slashes = False
 
